@@ -10,6 +10,7 @@ public class FirstClass {
         System.out.println("Fifth commit");
         System.out.println("sixth commit");
         System.out.println("Seventh Commit");
+        System.out.println("eigth commit");
         Faker faker = new Faker();
         System.out.println(faker.name().fullName());
         System.out.println(faker.harryPotter().character());
