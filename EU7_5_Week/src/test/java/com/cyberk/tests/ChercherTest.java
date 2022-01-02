@@ -15,6 +15,7 @@ public class ChercherTest {
         driver.manage().window().maximize();
         // implicitly wait, this is going to be applied to whole test cases and elements
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     @AfterMethod
